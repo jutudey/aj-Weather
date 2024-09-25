@@ -14,4 +14,4 @@ def get_data(place, forecast_days):
     return filtered_data
 
 if __name__=="__main__":
-    print(get_data(place="Tokyo", forecast_days=2))
+    print(get_data(place="fghjk", forecast_days=2))
