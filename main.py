@@ -4,7 +4,7 @@ from backend import get_data
 
 # add GUI elements
 st.title("Weather Forecast for the next days")
-place = st.text_input("Name of place you want the weather forcast for: ")
+place = st.text_input("Which place you want the weather forcast for: ")
 days = st.slider('Forecast days: ', min_value=1, max_value=5,
                  help="Select the number of days you want included in the forecast")
 option = st.radio('Select data to view:', ("Temperature", "Weather Conditions"))
